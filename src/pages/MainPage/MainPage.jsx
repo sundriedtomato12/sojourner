@@ -73,7 +73,7 @@ export function MainPage () {
                     <div className="w-full h-2.5 bg-gray-200 rounded-full">
                         <div className={progressBarClassName} style={{ width: `${Math.ceil(currentStep/steps.length * 100)}%` }}></div>
                     </div>
-                    <div className="w-[32rem]">
+                    <div className="w-[33rem]">
                         {steps[currentStep - 1].question && <p className="my-4 text-2xl font-bold">{steps[currentStep - 1].question}</p>}
                         {steps[currentStep - 1].description && <p className="mb-4 text-lg">{steps[currentStep - 1].description}</p>}
                         {steps[currentStep - 1].component}
