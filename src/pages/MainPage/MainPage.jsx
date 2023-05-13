@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { NavBar } from '../components/NavBar'
-import { StepOne } from '../components/StepOne'
-import { StepTwo } from '../components/StepTwo'
-import { StepThree } from '../components/StepThree'
-import { StepFour } from '../components/StepFour'
-import { StepFive } from '../components/StepFive'
-import { StepSix } from '../components/StepSix'
-import { StepSeven } from '../components/StepSeven'
+import { NavBar } from '../../common/components/NavBar'
+import { StepOne } from './components/StepOne'
+import { StepTwo } from './components/StepTwo'
+import { StepThree } from './components/StepThree'
+import { StepFour } from './components/StepFour'
+import { StepFive } from './components/StepFive'
+import { StepSix } from './components/StepSix'
+import { StepSeven } from './components/StepSeven'
 
 export function MainPage () {
     const [currentStep, setCurrentStep] = useState(1)

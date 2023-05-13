@@ -1,5 +1,5 @@
 import React from 'react'
-import { Radio } from './Radio'
+import { Radio } from '../../../common/components/Radio'
 
 export function StepFive () {
     const options = ['Less than $20/ day', '$21 - 25/ day', '$26 - $30/ day', '$31 - $35/ day', 'More than $35/ day']

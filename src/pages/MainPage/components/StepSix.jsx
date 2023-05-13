@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { InputWithLabel } from './InputWithLabel'
+import { InputWithLabel } from '../../../common/components/InputWithLabel'
 
 export function StepSix () {
     const [email, setEmail] = useState('')
